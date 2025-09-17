@@ -6,7 +6,7 @@
   height: 50vh;
   object-fit: cover;
   z-index: -1;           
-  animation: fadeInOut 3s ease-in-out forwards;
+  animation: fadeInOut 1s ease-in-out forwards;
   pointer-events: none;  
 }
 
@@ -37,7 +37,7 @@
   object-fit: contain;
   pointer-events: none;
 3. Add the ani
-  animation: fadeInOut 3s ease-in-out forwards;
+  animation: fadeInOut 1s ease-in-out forwards;
   pointer-events: none;
   opacity: 0;
 }
@@ -153,6 +153,7 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
 
