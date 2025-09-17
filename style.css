@@ -27,14 +27,16 @@
 }
 
 .fade-in-out {
+  width: 200px;         /* ✅ change to your desired size */
+  height: auto;         /* ✅ keeps aspect ratio */
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;       /* full viewport width */
-  height: 100vh;      /* full viewport height */
-  object-fit: contain; /* or 'cover' depending on how you want to scale */
-  object-position: center; /* center the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* ✅ center on screen */
   z-index: -1;
+  object-fit: contain;
+  pointer-events: none;
+3. Add the ani
   animation: fadeInOut 5s ease-in-out forwards;
   pointer-events: none;
   opacity: 0;
@@ -148,5 +150,6 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
