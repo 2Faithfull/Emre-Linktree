@@ -86,6 +86,9 @@
   animation-delay: 4s;
 }
 
+.fade-in.delay-7 {
+  animation-delay: 4.5s;
+}
 
 
 .fade-in {
@@ -153,6 +156,7 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
 
