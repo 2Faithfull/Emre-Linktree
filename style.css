@@ -94,6 +94,9 @@
 
 img {
   border-radius: 75px;
+  outline: 2px solid #000;
+  outline-offset: 4px; 
+  
 }
 
 h1 {
@@ -150,6 +153,7 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
 
