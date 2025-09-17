@@ -1,10 +1,60 @@
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Anfangszustand: unsichtbar */
+  animation: fadeIn 2s ease-in forwards;
+}
+
+
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+.fade-in.delay-0 {
+  animation-delay: 0s;
+}
+
+.fade-in.delay-1 {
+  animation-delay: 0.5s;
+}
+.fade-in.delay-2 {
+  animation-delay: 1s;
+}
+.fade-in.delay-3 {
+  animation-delay: 1.5s;
+}
+.fade-in.delay-4 {
+  animation-delay: 2s;
+}
+.fade-in.delay-5 {
+  animation-delay: 2.5s;
+}
+
+.fade-in.delay-6 {
+  animation-delay: 3s;
+}
+
+
+/* Wende die Animation auf ein Element an */
+.fade-in {
+  animation: fadeIn 2s ease-in forwards;
+}
+
 img {
   border-radius: 75px;
 }
 
 h1 {
   font-size: 28px;
-  text-align: center;
+  
 }
 
 h2 {
