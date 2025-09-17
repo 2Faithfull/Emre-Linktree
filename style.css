@@ -53,7 +53,7 @@
 }
 
 .fade-in {
-  opacity: 0; /* Anfangszustand: unsichtbar */
+  opacity: 0; 
   animation: fadeIn 2s ease-in forwards;
 }
 
@@ -87,7 +87,7 @@
 }
 
 
-/* Wende die Animation auf ein Element an */
+
 .fade-in {
   animation: fadeIn 2s ease-in forwards;
 }
@@ -153,6 +153,7 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
 
