@@ -1,4 +1,35 @@
-/* Fade-in Animation */
+.fade-in-out {
+  position: fixed;       
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;           
+  animation: fadeInOut 5s ease-in-out forwards;
+  pointer-events: none;  
+}
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in-out {
+  animation: fadeInOut 5s ease-in-out forwards;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -19,27 +50,27 @@
 }
 
 .fade-in.delay-0 {
-  animation-delay: 0s;
+  animation-delay: 5s;
 }
 
 .fade-in.delay-1 {
-  animation-delay: 0.5s;
+  animation-delay: 5.5s;
 }
 .fade-in.delay-2 {
-  animation-delay: 1s;
+  animation-delay: 6s;
 }
 .fade-in.delay-3 {
-  animation-delay: 1.5s;
+  animation-delay: 7.5s;
 }
 .fade-in.delay-4 {
-  animation-delay: 2s;
+  animation-delay: 8s;
 }
 .fade-in.delay-5 {
-  animation-delay: 2.5s;
+  animation-delay: 9.5s;
 }
 
 .fade-in.delay-6 {
-  animation-delay: 3s;
+  animation-delay: 10s;
 }
 
 
