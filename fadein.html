@@ -1,0 +1,20 @@
+<div class="fade-in">Your content here</div>
+
+<style>
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-in;
+}
+
+.fade-in.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+
+<script>
+window.addEventListener('load', () => {
+  document.querySelector('.fade-in').classList.add('loaded');
+});
+</script>
