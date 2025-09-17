@@ -30,14 +30,16 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
+  width: 100vw;       /* full viewport width */
+  height: 100vh;      /* full viewport height */
+  object-fit: contain; /* or 'cover' depending on how you want to scale */
+  object-position: center; /* center the image */
   z-index: -1;
   animation: fadeInOut 5s ease-in-out forwards;
   pointer-events: none;
-  opacity: 0;  /* make sure initial opacity matches */
+  opacity: 0;
 }
+
 
 @keyframes fadeIn {
   from {
