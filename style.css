@@ -27,7 +27,16 @@
 }
 
 .fade-in-out {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
   animation: fadeInOut 5s ease-in-out forwards;
+  pointer-events: none;
+  opacity: 0;  /* make sure initial opacity matches */
 }
 
 @keyframes fadeIn {
