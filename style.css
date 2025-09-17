@@ -63,27 +63,27 @@
 }
 
 .fade-in.delay-0 {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .fade-in.delay-1 {
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
 }
 .fade-in.delay-2 {
-  animation-delay: 3s;
+  animation-delay: 2s;
 }
 .fade-in.delay-3 {
-  animation-delay: 3.5s;
+  animation-delay: 2.5s;
 }
 .fade-in.delay-4 {
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 .fade-in.delay-5 {
-  animation-delay: 4.5s;
+  animation-delay: 3.5s;
 }
 
 .fade-in.delay-6 {
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 
@@ -153,6 +153,7 @@ a:hover {
       text-align: center;
       margin-top: 20px;
     }
+
 
 
 
