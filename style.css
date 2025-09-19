@@ -69,6 +69,7 @@
 .fade-in.delay-6 { animation-delay: 4s; }
 .fade-in.delay-7 { animation-delay: 4.5s; }
 .fade-in.delay-8 { animation-delay: 5s; }
+.fade-in.delay-9 { animation-delay: 7s; }
 
 .side-banner {
   position: fixed;
@@ -175,4 +176,5 @@ a:hover {
 
 
  
+
 
